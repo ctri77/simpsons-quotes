@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DisplayQuote = ({quote}) => {
+function DisplayQuote({quote}) {
     return (
         <div>
             <p>{quote.character}</p>

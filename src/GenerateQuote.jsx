@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GenerateQuote = ({selectQuote}) => {
+function GenerateQuote ({selectQuote}) {
     return (
         <div>
             <button onClick={selectQuote}>Get quote</button>
